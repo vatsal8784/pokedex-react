@@ -1,0 +1,11 @@
+/* TypeBox.css */
+
+.type-box {
+    background-color: white;
+    font-weight: bold;
+    border-radius: 0.25rem;
+    font-size: 12px;
+    width: 50px;
+    text-align: center;
+  }
+  

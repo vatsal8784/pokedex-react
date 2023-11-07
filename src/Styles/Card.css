@@ -1,0 +1,105 @@
+/* Card.css */
+
+.poke-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5; /* Card background color */
+  width: 200px; /* Card width */
+  height: 300px; /* Card height */
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
+}
+
+.poke-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  background-color: #fff; /* Card background color on hover */
+}
+
+.poke-card .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 100%;
+}
+
+.poke-card .id {
+  font-size: 16px;
+  color: #555; /* ID text color */
+}
+
+.poke-card .name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333; /* Pokemon name text color */
+  text-align: center;
+  margin: 10px 0;
+}
+
+.poke-card .types {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+
+.poke-card .types .type {
+  background-color: #3498db; /* Type background color */
+  color: #fff; /* Type text color */
+  border-radius: 10px;
+  padding: 2px 8px;
+  font-size: 12px;
+}
+.poke-card-image {
+  width: 100%;
+  height: 200px; /* Set a specific height for the image container */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.poke-card-image img {
+  width: 100%; /* Make the image fill the container width */
+  height: 100%; /* Make the image fill the container height */
+  object-fit: cover; /* Crop and resize the image to cover the container */
+  transition: transform 0.2s;
+}
+
+.poke-card-image:hover img {
+  transform: scale(1.1);
+}
+
+.poke-card-placeholder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ccc; /* Placeholder background color */
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
+}
+
+.poke-card-placeholder:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  background-color: #ccc; /* Placeholder background color on hover */
+}
+
+.poke-card-placeholder .name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333; /* Text color for "Encountering a wild Pokémon!" */
+  text-align: center;
+  margin: 10px 0;
+}

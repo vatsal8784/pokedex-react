@@ -1,0 +1,12 @@
+/* Home.css */
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(52, 152, 219, 0); /* Fully transparent background */
+  height: 100vh; /* Set the exact height of the container to fill the viewport */
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif; /* Choose a readable font */
+  overflow: auto; /* Add scrollbars when content exceeds viewport */
+}

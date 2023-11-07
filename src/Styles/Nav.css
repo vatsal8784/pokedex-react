@@ -1,0 +1,46 @@
+
+
+.nav-bar {
+  background-color: #008CBA; /* Change to your desired background color */
+  border-bottom: 2px solid #005F80; /* Adjust border color */
+  /*background-image: url('your-pattern-image-url.jpg'); /* Replace with your pattern image */
+}
+
+.nav-bar-container {
+  max-width: 1200px; /* Set a maximum width for better readability */
+  display: flex;
+  justify-content: space-between; /* Center the content horizontally */
+  align-items: center;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.nav-bar-logo {
+  width: 40px; /* Adjust the logo size as needed */
+  height: 40px;
+  margin-right: 1rem; /* Add some spacing between the logo and menu */
+}
+
+.nav-bar-list {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  font-size: 1.2rem; /* Reduce the font size for better readability */
+  gap: 2rem; /* Increase the gap between menu items */
+  list-style: none; /* Remove bullet points from the list */
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar-list-item {
+  padding: 0.5rem 1rem; /* Adjust padding for better spacing */
+  color: #FFFFFF; /* Text color */
+  text-decoration: none;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.nav-bar-list-item:hover {
+  background-color: #005F80; /* Change background color on hover */
+  color: #FFFFFF; /* Change text color on hover */
+}
