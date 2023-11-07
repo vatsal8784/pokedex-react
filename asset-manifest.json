@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/vatsal8784.github.io/pokedex-react/static/css/main.5a01a15c.css",
-    "main.js": "/vatsal8784.github.io/pokedex-react/static/js/main.1e29e636.js",
-    "static/media/bg-scene.jpg": "/vatsal8784.github.io/pokedex-react/static/media/bg-scene.1189cdc4344c388f6cb0.jpg",
-    "static/media/logo.png": "/vatsal8784.github.io/pokedex-react/static/media/logo.48eea660ea67eb628341.png",
-    "index.html": "/vatsal8784.github.io/pokedex-react/index.html",
-    "main.5a01a15c.css.map": "/vatsal8784.github.io/pokedex-react/static/css/main.5a01a15c.css.map",
-    "main.1e29e636.js.map": "/vatsal8784.github.io/pokedex-react/static/js/main.1e29e636.js.map"
+    "main.css": "/pokedex-react/static/css/main.c91b0c5b.css",
+    "main.js": "/pokedex-react/static/js/main.8d968549.js",
+    "static/media/bg-scene.jpg": "/pokedex-react/static/media/bg-scene.1189cdc4344c388f6cb0.jpg",
+    "static/media/logo.png": "/pokedex-react/static/media/logo.48eea660ea67eb628341.png",
+    "index.html": "/pokedex-react/index.html",
+    "main.c91b0c5b.css.map": "/pokedex-react/static/css/main.c91b0c5b.css.map",
+    "main.8d968549.js.map": "/pokedex-react/static/js/main.8d968549.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a01a15c.css",
-    "static/js/main.1e29e636.js"
+    "static/css/main.c91b0c5b.css",
+    "static/js/main.8d968549.js"
   ]
 }
