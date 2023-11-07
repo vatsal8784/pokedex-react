@@ -14,8 +14,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -b master -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -39,5 +39,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "vatsal8784.github.io/pokedex-react"
+  "homepage": "http://vatsal8784.github.io/pokedex-react"
 }

@@ -1,7 +1,7 @@
 /* PokeInfo.css */
 
 .pokemon-display-container {
-  background-color: #fff;
+  background-color: rgba(240, 240, 240, 0);
   border-radius: 20px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   padding: 16px;
@@ -83,7 +83,7 @@
 }
 
 .info-section {
-  background-color: #f0f0f0; /* Light gray background */
+  background-color: rgba(240, 240, 240, 0); /* Light gray background */
   padding: 16px;
   border-radius: 10px;
   margin: 10px;
